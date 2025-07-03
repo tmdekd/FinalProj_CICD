@@ -4,7 +4,6 @@ RUN apt update && apt install -y curl nginx
 
 # django
 COPY ./django_server /app
-COPY ./requirements.txt /app/requirements.txt
 COPY ./run.sh /app/run.sh
 
 # nginx
